@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Phonebook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>📱 Phonebook</h2>
+
+  <div class="input-area">
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="phone" placeholder="Phone Number">
+    <button onclick="addOrUpdate()">Add / Update</button>
+  </div>
+
+  <input type="text" id="search" placeholder="Search" oninput="searchContact()">
+
+  <ul id="list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
